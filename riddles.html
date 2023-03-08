@@ -216,11 +216,10 @@
  
                 for(i=0 ; i<figc.length ; i++){
                     if(figc[i].innerHTML.toLowerCase().includes(search.toLowerCase())  ){
-                        figc[i].parentElement.style.opacity = "1";
                         figc[i].parentElement.style.display = "block";
                     }
                     else{
-                        figc[i].parentElement.style.opacity = "0.5";
+                        figc[i].parentElement.style.display = "none";
                     }
                 }
         }
