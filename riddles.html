@@ -212,14 +212,14 @@
         <script>
             document.getElementById("search").oninput = function(){
                 var search = document.getElementById("search").value;
-                var figc = document.getElementsByClassName("figCap");
+                var figCap = document.getElementsByClassName("figCap");
  
-                for(i=0 ; i<figc.length ; i++){
-                    if(figc[i].innerHTML.toLowerCase().includes(search.toLowerCase())  ){
-                        figc[i].parentElement.style.display = "block";
+                for(i=0 ; i<figCap.length ; i++){
+                    if(figCap[i].innerHTML.toLowerCase().includes(search.toLowerCase())  ){
+                        figCap[i].parentElement.style.display = "block";
                     }
                     else{
-                        figc[i].parentElement.style.display = "none";
+                        figCap[i].parentElement.style.display = "none";
                     }
                 }
         }
