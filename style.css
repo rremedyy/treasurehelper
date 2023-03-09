@@ -61,6 +61,7 @@ div.quests figcaption {
 }
 div.quests img {
     background-color: #c6c6c6;
+    height: auto;
     border-top-left-radius: 7.5px;
     border-top-right-radius: 7.5px;
 }
